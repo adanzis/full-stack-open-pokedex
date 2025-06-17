@@ -10,6 +10,10 @@ app.get('/api/version', (req, res) => {
   res.send('2') // change this string to ensure a new version deployed
 })
 
+app.get('/api/health', (req, res) => {
+  res.send('ok')
+})
+
 
 app.listen(PORT, () => {
   // eslint-disable-next-line no-console
