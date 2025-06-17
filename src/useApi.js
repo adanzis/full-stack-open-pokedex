@@ -19,4 +19,3 @@ const useApi = (url, mapResults = (result) => result) => {
 
 export { useApi }
 
-//testing github actions by adding comment 
